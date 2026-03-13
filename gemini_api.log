@@ -1,0 +1,57 @@
+---
+endpoint: https://generativelanguage.googleapis.com/v1/models/text-bison-001:generate
+status: 404
+body:
+
+---
+endpoint: https://generativelanguage.googleapis.com/v1beta2/models/text-bison-001:generate
+status: 404
+body:
+
+No Gemini API key found; skipping remote call.
+No Gemini API key found; skipping remote call.
+No Gemini API key found; skipping remote call.
+Gemini request status: 404 body: {
+  "error": {
+    "code": 404,
+    "message": "Requested entity was not found.",
+    "status": "NOT_FOUND"
+  }
+}
+
+Gemini request status: 200 body: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "```json\n{\n  \"crop\": \"Papaya\",\n  \"duration\": {\n    \"growing_period\": \"Papaya trees typically begin to bear fruit within 6-12 months after planting. Commercial production usually lasts for 3-4 years, after which yields decline.\",\n    \"seasons\": \"Papaya can be grown year-round in tropical and subtropical climates with sufficient irrigation. Optimal fruit production occurs during warmer months with ample sunlight. Avoid planting during periods of heavy rainfall or potential frost.\"\n  },\n  \"environment\": {\n    \"ideal_climate\": \"Papaya thrives in warm, humid climates with temperatures between 21-33°C (70-91°F). Temperatures below 15°C (59°F) can damage the plant and affect fruit quality. Frost is lethal. High humidity (60-80%) is beneficial.\",\n    \"conditions\": {\n      \"soil\": \"Well-drained, fertile soil with a pH of 6.0-6.5 is ideal. Papaya is sensitive to waterlogging, so good drainage is crucial. Sandy loam or loamy soils are preferred. Heavy clay soils should be amended with organic matter to improve drainage.\",\n      \"sunlight\": \"Papaya requires full sun (at least 6-8 hours of direct sunlight per day) for optimal growth and fruit production.\",\n      \"water\": \"Regular watering is essential, especially during dry periods. Avoid overwatering, which can lead to root rot. Drip irrigation is recommended for efficient water use.\",\n      \"altitude\": \"Papaya can be grown at altitudes up to 1500 meters (4900 feet), but optimal growth occurs at lower elevations.\"\n    }\n  },\n  \"fertilizers\": {\n    \"recommended_nutrients\": {\n      \"nitrogen\": \"Essential for vegetative growth and fruit production. Apply regularly throughout the growing season.\",\n      \"phosphorus\": \"Important for root development and flowering. Apply at planting and during flowering.\",\n      \"potassium\": \"Crucial for fruit quality, size, and disease resistance. Apply regularly throughout the growing season.\",\n      \"calcium\": \"Helps prevent blossom-end rot and improves fruit firmness. Apply as needed based on soil tests.\",\n      \"magnesium\": \"Essential for chlorophyll production and enzyme activity. Apply as needed based on soil tests.\",\n      \"micronutrients\": \"Iron, zinc, manganese, and boron are important for overall plant health. Apply as a foliar spray or soil drench as needed based on soil tests.\"\n    },\n    \"timing\": {\n      \"planting\": \"Apply a balanced fertilizer (e.g., 10-10-10) at planting to promote root development.\",\n      \"vegetative_growth\": \"Apply nitrogen-rich fertilizer (e.g., urea or ammonium sulfate) every 2-3 weeks during the vegetative growth stage.\",\n      \"flowering_and_fruiting\": \"Apply a fertilizer high in potassium (e.g., potassium sulfate or potassium nitrate) every 2-3 weeks during flowering and fruit development. Reduce nitrogen application during this stage.\",\n      \"foliar_application\": \"Foliar application of micronutrients can be done every 4-6 weeks to correct deficiencies.\"\n    },\n    \"application_methods\": \"Fertilizers can be applied through fertigation (drip irrigation), side-dressing, or foliar sprays. Soil testing is recommended to determine the specific nutrient needs of the plants.\"\n  },\n  \"pests\": {\n    \"common_problems\": [\n      {\n        \"pest\": \"Papaya Ringspot Virus (PRSV)\",\n        \"symptoms\": \"Mottling and distortion of leaves, ringspots"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "MAX_TOKENS",
+      "avgLogprobs": -0.12199548239023289
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 69,
+    "candidatesTokenCount": 787,
+    "totalTokenCount": 856,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 69
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 787
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash",
+  "responseId": "1xkLaYzyJZ6ejuMPhe2VqAI"
+}
+
